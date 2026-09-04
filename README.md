@@ -26,6 +26,8 @@ Full setup and usage instructions are included in **How to Use.html** inside the
 
 ⚠️ Because of this environment requirement, support for individual setup issues is limited — please make sure your Blender/RE-tools environment is working correctly before reaching out. For questions or bugs, please use [GitHub Issues](../../issues) rather than DMs.
 
+If Blender crashes or the log stops partway through a run, just click **Run Conversion** again — this can happen occasionally, usually on one specific file. It's safe to retry: the tool never touches your original mod, and always writes to a fresh output folder, so a failed run leaves nothing behind to clean up.
+
 ## Download
 
 Grab the latest release from the [Releases page](../../releases/latest) — it's a single zip containing the tool, the usage guide, and license notices.
