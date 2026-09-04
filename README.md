@@ -27,7 +27,7 @@ Full setup and usage instructions are included in **How to Use.html** inside the
 
 ## Download
 
-Grab the latest release from the [Releases page](../../releases/latest).
+Grab the latest release from the [Releases page](../../releases/latest) — it's a single zip containing the tool, the usage guide, and license notices.
 
 Only the compiled `.exe` is distributed here; this repository does not include the tool's source.
 
@@ -42,8 +42,8 @@ If this tool saved you time, a coffee is always appreciated — but it's free fo
 
 ## Verifying your download
 
-Each release includes a SHA-256 checksum in its notes. To verify the file you downloaded matches:
+Each release's notes include a SHA-256 checksum for the release zip. To verify the file you downloaded matches:
 
 ```powershell
-Get-FileHash "Equip Slot Converter.exe" -Algorithm SHA256
+Get-FileHash "EquipSlotConverter-v1.0.0.zip" -Algorithm SHA256
 ```
