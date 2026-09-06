@@ -4,8 +4,6 @@ A free tool for **Monster Hunter Wilds** that converts Ver.R-based armor mods (a
 
 🆓 **Free forever.** No paywall, no locked tiers, no catch.
 
-⚠️ **Currently unpublished.** Some parts of the tool have reverted to an in-development build, and I'm currently working on fixing this. The version previously published here has been temporarily taken down. Thank you to everyone who submitted bug reports!
-
 ## What it does
 
 - Rebuilds the equip prefab from a vanilla donor for the target slot
@@ -50,7 +48,7 @@ If this tool saved you time, a coffee is always appreciated — but it's free fo
 Each release's notes include a SHA-256 checksum for the release zip. To verify the file you downloaded matches:
 
 ```powershell
-Get-FileHash "EquipSlotConverter-v1.0.1.zip" -Algorithm SHA256
+Get-FileHash "EquipSlotConverter-v1.0.2.zip" -Algorithm SHA256
 ```
 
 ## Disclaimer
