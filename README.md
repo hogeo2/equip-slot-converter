@@ -28,6 +28,8 @@ Full setup and usage instructions are included in **How to Use.html** inside the
 
 If Blender crashes or the log stops partway through a run, just click **Run Conversion** again — this can happen occasionally, usually on one specific file. It's safe to retry: the tool never touches your original mod, and always writes to a fresh output folder, so a failed run leaves nothing behind to clean up.
 
+If the crash report specifically mentions a background thread and `EXCEPTION_ACCESS_VIOLATION`, this has been traced (at least once) to an unrelated third-party Blender add-on, **Cats Blender Plugin**, running its own delayed background timer even in headless mode — that timer touching Blender's data from a non-main thread can crash Blender if it fires while this tool's own Blender step is running. This tool doesn't use Cats Blender Plugin at all. If you have it installed, try disabling it (Blender's `Edit > Preferences > Add-ons`, search "Cats") or temporarily moving aside `%APPDATA%\Blender Foundation\Blender\<version>\extensions\user_default\cats_blender_plugin`, then re-run the conversion. Still crashing with no such add-on installed? That's a different, not-yet-diagnosed cause — please report it (with the crash log Blender writes to `%TEMP%\blender.crash.txt`) via [GitHub Issues](../../issues).
+
 ## Download
 
 Grab the latest release from the [Releases page](../../releases/latest) — it's a single zip containing the tool, the usage guide, and license notices.
