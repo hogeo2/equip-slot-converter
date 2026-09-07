@@ -24,6 +24,8 @@ This tool assumes you already have a working modding setup:
 - Game files extracted through RE Asset Library (Model Related Files, Prefab Files, User Files)
 - 7-Zip and/or WinRAR, if your source mod is a `.zip`/`.7z`/`.rar` archive
 
+> ⚠️ **It has to be Blender 4.5 — specifically.** Not 5.x, not an older 4.x. The RE-tools add-ons above aren't updated for other Blender versions, and running this tool against a mismatched one doesn't always fail loudly: it can silently drop part of the result (jiggle/cape physics quietly missing from the output, no error shown) instead of crashing outright. Grab 4.5 here if you don't already have it: https://www.blender.org/download/releases/4-5/
+
 Full setup and usage instructions are included in **How to Use.html** inside the download.
 
 ⚠️ Because of this environment requirement, support for individual setup issues is limited — please make sure your Blender/RE-tools environment is working correctly before reaching out. For questions or bugs, please use [GitHub Issues](../../issues) rather than DMs.
