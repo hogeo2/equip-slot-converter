@@ -2,6 +2,10 @@
 
 # Equip Slot Converter
 
+## ⚠️ TEMPORARILY UNPUBLISHED
+
+**This tool is temporarily unpublished due to structural issues and logic gaps in the conversion process that haven't been fully addressed yet. Downloads have been removed while these are investigated and fixed.**
+
 A free tool for **Monster Hunter Wilds** that converts Ver.R-based armor mods (and similar layered/replacer mods) to a different equipment slot — so a mod built for one armor piece can be worn in another slot, with meshes, textures, and physics carried over automatically.
 
 🆓 **Free forever.** No paywall, no locked tiers, no catch.
