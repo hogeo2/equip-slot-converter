@@ -67,7 +67,7 @@ If this tool saved you time, a coffee is always appreciated — but it's free fo
 Each release's notes include a SHA-256 checksum for the release zip. To check the file you downloaded matches:
 
 ```powershell
-Get-FileHash "EquipSlotConverter-v1.0.4.zip" -Algorithm SHA256
+Get-FileHash "EquipSlotConverter-v1.0.6.zip" -Algorithm SHA256
 ```
 
 ## Disclaimer
