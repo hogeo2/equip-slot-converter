@@ -16,6 +16,7 @@ A free tool for **Monster Hunter Wilds** that moves an armor mod to a different 
 - Checks the result against the game's own data afterwards, and writes a report you can keep with the mod
 - Adjusts body physics — bust, hips and thighs, each with its own numbers — on any mod folder, converted by this tool or not
 - Repairs a mod built for an older game version
+- Adds the game's own "play an effect while the weapon is drawn" behaviour to a mod, with an effect of your choosing
 - Available in 8 languages; the run log deliberately stays English so it can be shared
 - **Hunter armor only** (the Male/Female player equip slots). Handler, Palico and other NPC equipment use an entirely different character model system and are not supported.
 
